@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AccessSystem
 {
-    class ArendajateRuumiUks
+    class ArendajateRuumiUks:Uks
     {
+        public ArendajateRuumiUks()
+        {
+            DoorSign = "Software Developer Room";
+        }
     }
 }

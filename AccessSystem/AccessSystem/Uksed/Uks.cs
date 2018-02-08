@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AccessSystem
 {
-    class Uks
+    public abstract class Uks
     {
+        public string DoorSign;
     }
 }

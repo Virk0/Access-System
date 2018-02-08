@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AccessSystem
 {
-    class KöögiUks
+    class KöögiUks : Uks
     {
+        public KöögiUks()
+        {
+            DoorSign = "Kitchen";
+        }
     }
 }

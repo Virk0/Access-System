@@ -11,6 +11,11 @@ namespace AccessSystem
         public Ülemus()
         {
             Name = "Boss";
+            bool AccessToMainDoor = true;
+            bool AccessToSoftWareDevRoom = true;
+            bool AccessToBossRoom = true;
+            bool AccessToKöök = true;
+            bool AccessToDataWorkerRoom = true;
         }
     }
 }

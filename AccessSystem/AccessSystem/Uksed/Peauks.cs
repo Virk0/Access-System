@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AccessSystem
 {
-    class Peauks
+    class Peauks : Uks
     {
+        public Peauks()
+        {
+            DoorSign = "Maindoor";
+        }
     }
 }

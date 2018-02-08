@@ -11,6 +11,11 @@ namespace AccessSystem
         public NooremArendaja()
         {
             Name = "Younger Software Developer";
+            bool AccessToMainDoor = true;
+            bool AccessToSoftWareDevRoom = true;
+            bool AccessToBossRoom = false;
+            bool AccessToKöök = true;
+            bool AccessToDataWorkerRoom = false;
         }
     }
 }

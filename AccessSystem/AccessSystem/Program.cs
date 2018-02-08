@@ -16,6 +16,7 @@ namespace AccessSystem
             var tööSpetsiaalKoristaja = new SpetsiaalKoristaja();
             var tööÜlemus = new Ülemus();
             var tööAndmeTöötleja = new AndmeTöötleja();
+            var UserJob = "";
             Console.WriteLine("Choose your job");
             Console.WriteLine("Options are:");
             Console.WriteLine("1." + tööKoristaja.Name);
@@ -27,6 +28,7 @@ namespace AccessSystem
             string choiceJob = Console.ReadLine();
             if (choiceJob == "1")
             {
+                UserJob = tööKoristaja.Name;
                 Console.WriteLine("Would you like to know the access level of this job?\n[Y/N]");
                 string choiceJob2 = Console.ReadLine();
                 if (choiceJob2 == "Y")
@@ -38,9 +40,11 @@ namespace AccessSystem
                     Console.WriteLine("Your choice");
                 }
                 Console.ReadLine();
+                DoorChoices.Doorchoices();
             }
             if (choiceJob == "2")
             {
+                UserJob = tööSpetsiaalKoristaja.Name;
                 Console.WriteLine("Would you like to know the access level of this job?\n[Y/N]");
                 string choiceJob2 = Console.ReadLine();
                 if (choiceJob2 == "Y")
@@ -52,9 +56,11 @@ namespace AccessSystem
                     Console.WriteLine("Your choice");
                 }
                 Console.ReadLine();
+                DoorChoices.Doorchoices();
             }
             if (choiceJob == "3")
             {
+                UserJob = tööNooremArendaja.Name;
                 Console.WriteLine("Would you like to know the access level of this job?\n[Y/N]");
                 string choiceJob2 = Console.ReadLine();
                 if (choiceJob2 == "Y")
@@ -66,9 +72,11 @@ namespace AccessSystem
                     Console.WriteLine("Your choice");
                 }
                 Console.ReadLine();
+                DoorChoices.Doorchoices();
             }
             if (choiceJob == "4")
             {
+                UserJob = tööVanemArendaja.Name;
                 Console.WriteLine("Would you like to know the access level of this job?\n[Y/N]");
                 string choiceJob2 = Console.ReadLine();
                 if (choiceJob2 == "Y")
@@ -80,9 +88,11 @@ namespace AccessSystem
                     Console.WriteLine("Your choice");
                 }
                 Console.ReadLine();
+                DoorChoices.Doorchoices();
             }
             if (choiceJob == "5")
             {
+                UserJob = tööAndmeTöötleja.Name;
                 Console.WriteLine("Would you like to know the access level of this job?\n[Y/N]");
                 string choiceJob2 = Console.ReadLine();
                 if (choiceJob2 == "Y")
@@ -94,9 +104,11 @@ namespace AccessSystem
                     Console.WriteLine("Your choice");
                 }
                 Console.ReadLine();
+                DoorChoices.Doorchoices();
             }
             if (choiceJob == "6")
             {
+                UserJob = tööÜlemus.Name;
                 Console.WriteLine("Would you like to know the access level of this job?\n[Y/N]");
                 string choiceJob2 = Console.ReadLine();
                 if (choiceJob2 == "Y")
@@ -108,6 +120,8 @@ namespace AccessSystem
                     Console.WriteLine("Your choice");
                 }
                 Console.ReadLine();
+                DoorChoices.Doorchoices();
+
             }
         }
     }

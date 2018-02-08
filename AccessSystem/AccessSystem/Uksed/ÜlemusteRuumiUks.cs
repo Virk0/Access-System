@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AccessSystem
 {
-    class ÜlemusteRuumiUks
+    class ÜlemusteRuumiUks : Uks
     {
+        public ÜlemusteRuumiUks()
+        {
+            DoorSign = "Boss room";
+        }
     }
 }

@@ -11,6 +11,11 @@ namespace AccessSystem
         public AndmeTöötleja()
         {
             Name = "Data Worker";
+            bool AccessToMainDoor = true;
+            bool AccessToSoftWareDevRoom = false;
+            bool AccessToBossRoom = false;
+            bool AccessToKöök = true;
+            bool AccessToDataWorkerRoom = true;
         }
     }
 }
