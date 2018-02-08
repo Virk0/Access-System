@@ -10,6 +10,11 @@ namespace AccessSystem
     {
         public string Name;
         public int Access_lvl;
+        public bool AccessToMainDoor = false;
+        public bool AccessToSoftWareDevRoom = false;
+        public bool AccessToBossRoom = false;
+        public bool AccessToKöök = false;
+        public bool AccessToDataWorkerRoom = false;
 
         public virtual string defineJob()
         {

@@ -11,11 +11,11 @@ namespace AccessSystem
         public Koristaja()
         {
             Name = "Cleaner";
-            bool AccessToMainDoor = true;
-            bool AccessToSoftWareDevRoom = true;
-            bool AccessToBossRoom = false;
-            bool AccessToKöök = true;
-            bool AccessToDataWorkerRoom = true;
+            AccessToMainDoor = true;
+            AccessToSoftWareDevRoom = true;
+            AccessToBossRoom = false;
+            AccessToKöök = true;
+            AccessToDataWorkerRoom = true;
         }
     }
 }

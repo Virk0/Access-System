@@ -11,11 +11,11 @@ namespace AccessSystem
         public SpetsiaalKoristaja()
         {
             Name = "Special Cleaner";
-            bool AccessToMainDoor = true;
-            bool AccessToSoftWareDevRoom = true;
-            bool AccessToBossRoom = true;
-            bool AccessToKöök = true;
-            bool AccessToDataWorkerRoom = true;
+            AccessToMainDoor = true;
+            AccessToSoftWareDevRoom = true;
+            AccessToBossRoom = true;
+            AccessToKöök = true;
+            AccessToDataWorkerRoom = true;
         }
     }
 }

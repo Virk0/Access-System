@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoorChoices2.cs" />
     <Compile Include="DoorChoices.cs" />
+    <Compile Include="DoorChoices3.cs" />
     <Compile Include="Töökohad\Töökoht.cs" />
     <Compile Include="Uksed\Uks.cs" />
     <Compile Include="Uksed\AndmeTöötlejateRuumiUks.cs" />
